@@ -15,3 +15,5 @@ i = 0
 for depuis, vers in conversions:
   print(f"({i}) {depuis} en {vers}")
   i += 1
+
+choix = input(f"\nVotre choix (0-{i - 1}) ? ")
