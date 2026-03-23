@@ -1,3 +1,5 @@
+import sys
+
 conversions = [
   ("km", "mi"),
   ("mi", "km"),
@@ -20,6 +22,10 @@ for depuis, vers in conversions:
   i += 1
 
 choix = int(input(f"\nVotre choix (0-{i - 1}) ? "))
+
+if choix < 0 or choix >= i:
+  print("\nChoix invalide !")
+  sys.exit(1)
 
 x = float(input("Valeur à convertir ? "))
 
