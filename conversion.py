@@ -7,6 +7,9 @@ conversions = [
   ("°F", "°C")
 ]
 
+def kilometres_en_miles(x):
+  return x * 0.6214
+
 print("Bienvenue dans votre convertisseur d'unités !")
 
 print("\nListe des fonctions de conversion :\n")
