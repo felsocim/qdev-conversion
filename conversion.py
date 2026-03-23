@@ -31,17 +31,17 @@ x = float(input("Valeur à convertir ? "))
 
 resultat = None
 
-if choix == 0:
+if choix == 0: # km en mi
   resultat = kilometres_en_miles(x)
-elif choix == 1:
+elif choix == 1: # mi en km
   print("\nConversion non-implémentée")
-elif choix == 2:
+elif choix == 2: # kg en lbs
   print("\nConversion non-implémentée")
-elif choix == 3:
+elif choix == 3: # lbs en kg
   print("\nConversion non-implémentée")
-elif choix == 4:
+elif choix == 4: # °C en °F
   print("\nConversion non-implémentée")
-elif choix == 5:
+elif choix == 5: # °F en °C
   print("\nConversion non-implémentée")
 
 if resultat is not None:
