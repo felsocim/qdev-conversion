@@ -20,3 +20,5 @@ for depuis, vers in conversions:
   i += 1
 
 choix = input(f"\nVotre choix (0-{i - 1}) ? ")
+
+x = float(input("Valeur à convertir ? "))
