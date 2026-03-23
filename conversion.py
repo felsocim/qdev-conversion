@@ -22,3 +22,10 @@ for depuis, vers in conversions:
 choix = int(input(f"\nVotre choix (0-{i - 1}) ? "))
 
 x = float(input("Valeur à convertir ? "))
+
+resultat = None
+
+if choix == 0:
+  resultat = kilometres_en_miles(x)
+
+print(f"\n{x} {conversions[choix][0]} = {resultat} {conversions[choix][1]}")
