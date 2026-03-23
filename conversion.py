@@ -8,3 +8,10 @@ conversions = [
 ]
 
 print("Bienvenue dans votre convertisseur d'unités !")
+
+print("\nListe des fonctions de conversion :\n")
+
+i = 0
+for depuis, vers in conversions:
+  print(f"({i}) {depuis} en {vers}")
+  i += 1
