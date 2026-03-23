@@ -27,5 +27,16 @@ resultat = None
 
 if choix == 0:
   resultat = kilometres_en_miles(x)
+elif choix == 1:
+  print("\nConversion non-implémentée")
+elif choix == 2:
+  print("\nConversion non-implémentée")
+elif choix == 3:
+  print("\nConversion non-implémentée")
+elif choix == 4:
+  print("\nConversion non-implémentée")
+elif choix == 5:
+  print("\nConversion non-implémentée")
 
-print(f"\n{x} {conversions[choix][0]} = {resultat} {conversions[choix][1]}")
+if resultat is not None:
+  print(f"\n{x} {conversions[choix][0]} = {resultat} {conversions[choix][1]}")
