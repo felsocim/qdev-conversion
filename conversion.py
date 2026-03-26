@@ -45,4 +45,4 @@ elif choix == 5: # °F en °C
   print("\nConversion non-implémentée")
 
 if resultat is not None:
-  print(f"\n{x} {conversions[choix][0]} = {resultat} {conversions[choix][1]}")
+  print(f"\n{x} {conversions[choix][0]} = {resultat:.2f} {conversions[choix][1]}")
