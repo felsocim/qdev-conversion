@@ -15,6 +15,9 @@ def kilometres_en_miles(x):
 def miles_en_kilometres(x):
   return x * 1.6093
 
+def celsuis_en_fahrenheit(x):
+  return x * (9.0 / 5.0) + 32
+
 print("Bienvenue dans votre convertisseur d'unités !")
 
 print("\nListe des fonctions de conversion :\n")
@@ -43,7 +46,7 @@ elif choix == 2: # kg en lbs
 elif choix == 3: # lbs en kg
   print("\nConversion non-implémentée")
 elif choix == 4: # °C en °F
-  print("\nConversion non-implémentée")
+  resultat = celsuis_en_fahrenheit(x)
 elif choix == 5: # °F en °C
   print("\nConversion non-implémentée")
 
