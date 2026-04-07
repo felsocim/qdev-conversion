@@ -15,6 +15,9 @@ def kilometres_en_miles(x):
 def kilogrammes_en_livres(x):
   return x * 2.2046
 
+def livres_en_kilogrammes(x):
+  return x * 0.4536
+
 print("Bienvenue dans votre convertisseur d'unités !")
 
 print("\nListe des fonctions de conversion :\n")
@@ -41,7 +44,7 @@ elif choix == 1: # mi en km
 elif choix == 2: # kg en lbs
   resultat = kilogrammes_en_livres(x)
 elif choix == 3: # lbs en kg
-  print("\nConversion non-implémentée")
+  resultat = livres_en_kilogrammes(x)
 elif choix == 4: # °C en °F
   print("\nConversion non-implémentée")
 elif choix == 5: # °F en °C
