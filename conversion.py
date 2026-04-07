@@ -12,6 +12,9 @@ conversions = [
 def kilometres_en_miles(x):
   return x * 0.6214
 
+def miles_en_kilometres(x):
+  return x * 1.6093
+
 print("Bienvenue dans votre convertisseur d'unités !")
 
 print("\nListe des fonctions de conversion :\n")
@@ -34,7 +37,7 @@ resultat = None
 if choix == 0: # km en mi
   resultat = kilometres_en_miles(x)
 elif choix == 1: # mi en km
-  print("\nConversion non-implémentée")
+  resultat = miles_en_kilometres(x)
 elif choix == 2: # kg en lbs
   print("\nConversion non-implémentée")
 elif choix == 3: # lbs en kg
